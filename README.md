@@ -218,7 +218,8 @@ GitHub地址：https://github.com/weijie-he/jinyong
 #### 4.2 “专属昵称”分析
 <div align="center" >
 	<img src="https://ws1.sinaimg.cn/large/50c1811fly1g14o9pr7uzj20j20g116w.jpg" width="450px" height="400px" >
-​“专属昵称”图
+</div>
+	“专属昵称”图
 
 由于我只是筛选出了度为1和2的点，但有些点是人名，而不是昵称，不必看。
 
