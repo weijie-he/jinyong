@@ -44,6 +44,7 @@ object spark {
       Edge(fields(0).toLong, fields(1).toLong, line._2)//起始点ID必须为Long，最后一个是属性，可以为任意类型
     }
     val graph_tmp = Graph.fromEdges(edges,1L)
+//    经过过滤后有些顶点是没有边，所以采用leftOuterJoin将这部分顶点去除
     val vertices = graph_tmp.vertices.leftOuterJoin(verticesAll).map(x=>(x._1,x._2._2.getOrElse("")))
     val graph = Graph(vertices,edges)
 
