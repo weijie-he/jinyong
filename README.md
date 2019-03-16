@@ -48,7 +48,7 @@ GitHub地址：https://github.com/weijie-he/jinyong
 
    ​	在人物亲密度图中，我将人名、昵称作为顶点；在人物—武器关系图中，我将人名、武器、武功作为顶点。
 
-   	至于边集信息，是这样确定的：以原文中每一句话为单位。如果在这句话中，出现了两个上述的“顶点”，则认为他们产生了一次联系。如果在这句话中，出现了三个“顶点”，则认为他们两两之间都有一次联系。以此类推。
+   至于边集信息，是这样确定的：以原文中每一句话为单位。如果在这句话中，出现了两个上述的“顶点”，则认为他们产生了一次联系。如果在这句话中，出现了三个“顶点”，则认为他们两两之间都有一次联系。以此类推。
 
 ​	处理完的结果保存在resources文件夹中。结果如下所示
 <div style="float:left;margin-right:20px" >
@@ -57,6 +57,7 @@ GitHub地址：https://github.com/weijie-he/jinyong
 <div style="float:left" >
 	<img src="https://ws1.sinaimg.cn/large/50c1811fly1g14lo54gfij204m0bzq2t.jpg" width="100px" height="300px" >
 </div>
+
 #### 3.3 使用Spark GraphX 生成图
 
 我想把联系的次数作为边的权重。首先就要统计同一个联系出现的次数。这一步有点像WordCount，由于不想让一些打酱油的人物出现，所以还用了个filter函数过滤。
