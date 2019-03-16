@@ -211,7 +211,6 @@ GitHub地址：https://github.com/weijie-he/jinyong
 #### 4.1 人物亲密度关系分析
 ![人物亲密度关系图](https://ws1.sinaimg.cn/large/50c1811fly1g14npx182gj215w0mcatc.jpg)
 
-​人物亲密度关系图
 
 可以看出郭靖和黄蓉的颜色是最深的（联系是最紧密的）。这是因为他们在《射雕》和《神雕》中都有很多戏份。《神雕》中的男女主小龙女和杨过联系也很紧密。相比之下《倚天》中的男女主张无忌和赵敏直接的线就淡的多了。一方面，这是因为赵敏的出场时间太晚（全书40章，赵敏在第23章才出场）。另一方面，张无忌优柔寡断，情感方面也一直在赵敏和周芷若之间犹豫不决，导致张无忌的情感线被周芷若分流了许多。
 
@@ -219,7 +218,6 @@ GitHub地址：https://github.com/weijie-he/jinyong
 <div align="center" >
 	<img src="https://ws1.sinaimg.cn/large/50c1811fly1g14o9pr7uzj20j20g116w.jpg" width="450px" height="400px" >
 </div>
-	“专属昵称”图
 
 由于我只是筛选出了度为1和2的点，但有些点是人名，而不是昵称，不必看。
 
@@ -242,6 +240,7 @@ GitHub地址：https://github.com/weijie-he/jinyong
 #### 4.3 “孤岛人群”分析
 <div align="center" >
 	<img src="https://ws1.sinaimg.cn/large/50c1811fgy1g14r9yj0plj20p704379d.jpg" width="90%" height="100px" >
+</div>
 发现只有3个“孤岛人群”（小团体）。
 
 简捷和薛公远是《倚天屠龙记》中被金花婆婆打伤，找胡青牛治病的人。和他们有交集的人确实很少。
