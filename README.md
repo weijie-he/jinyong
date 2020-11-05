@@ -54,8 +54,8 @@ GitHub地址：https://github.com/weijie-he/jinyong
 
 ​	处理完的结果保存在resources文件夹中。结果如下所示：
 <div align="center" >
-	<img src=".\images\顶点.jpg" width="100px" height="300px" >
-	<img src=".\images\边.jpg" width="100px" height="300px">
+	<img src="./images/顶点.jpg" width="100px" height="300px" >
+	<img src="./images/边.jpg" width="100px" height="300px">
 </div>
 
 #### 3.3 使用Spark GraphX 生成图
@@ -209,14 +209,14 @@ GitHub地址：https://github.com/weijie-he/jinyong
 ### 四、结果展示与分析
 以下图片的高清完整版可在output/pics中找到
 #### 4.1 人物亲密度关系分析
-![人物亲密度关系图](.\images\人物关系.jpg)
+![人物亲密度关系图](./images/人物关系.jpg)
 
 
 可以看出郭靖和黄蓉的颜色是最深的（联系是最紧密的）。这是因为他们在《射雕》和《神雕》中都有很多戏份。《神雕》中的男女主小龙女和杨过联系也很紧密。相比之下《倚天》中的男女主张无忌和赵敏直接的线就淡的多了。一方面，这是因为赵敏的出场时间太晚（全书40章，赵敏在第23章才出场）。另一方面，张无忌优柔寡断，情感方面也一直在赵敏和周芷若之间犹豫不决，导致张无忌的情感线被周芷若分流了许多。
 
 #### 4.2 “专属昵称”分析
 <div align="center" >
-	<img src=".\images\专属昵称.jpg" width="450px" height="400px" >
+	<img src="./images/专属昵称.jpg" width="450px" height="400px" >
 </div>
 
 
@@ -240,7 +240,7 @@ GitHub地址：https://github.com/weijie-he/jinyong
 
 #### 4.3 “孤岛人群”分析
 <div align="center" >
-	<img src=".\images\孤岛人群.jpg" width="90%" height="100px" >
+	<img src="./images/孤岛人群.jpg" width="90%" height="100px" >
 </div>
 
 发现只有3个“孤岛人群”（小团体）。
@@ -261,7 +261,7 @@ GitHub地址：https://github.com/weijie-he/jinyong
 
 #### 4.4 人物——武功\兵器分析
 
-![](.\images\武功兵器.jpg)
+![](./images/武功兵器.jpg)
 
 主要想看谁经常被哪种武功\兵器揍。
 
